@@ -7,3 +7,5 @@ def min_task_1_4(dictionaries):
         dictionary with smallest value
     """
     return
+dictionaries=[{'a': 5}, {'a': 3}, {'a': 7}]
+print(min(dictionaries,key=lambda dictionaries:dictionaries["a"]))
