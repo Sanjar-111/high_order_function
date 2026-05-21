@@ -7,3 +7,5 @@ def min_task_1_2(words):
         shortest word
     """
     return
+words=["apple", "banana", "kiwi", "pear"]
+print(min(words,key=len))
