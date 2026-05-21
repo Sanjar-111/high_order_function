@@ -7,3 +7,6 @@ def min_task_1_1(numbers):
         smallest number
     """
     return
+numbers=[3, 1, 4, 2]
+print(min(numbers))
+
