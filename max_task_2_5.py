@@ -7,3 +7,5 @@ def max_task_2_5(people):
         dictionary of person with highest age
     """
     return
+people=[{"name": "Alice", "age": 30}, {"name": "Bob", "age": 45}, {"name": "Tom", "age": 28}]
+print(max(people, key=lambda people:people["age"]))
