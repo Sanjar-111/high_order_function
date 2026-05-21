@@ -6,4 +6,6 @@ def map_task_3_5(people):
     Returns:
         list of names
     """
-    return
+    return people["name"]
+people=[{"name": "Alice"}, {"name": "Bob"}, {"name": "Carol"}]
+print(list(map(map_task_3_5,people)))
