@@ -6,4 +6,6 @@ def filter_task_4_1(numbers):
     Returns:
         list of odd numbers
     """
-    return
+    return numbers%2
+numbers=[1, 2, 3, 4, 5]
+print(list(filter(filter_task_4_1,numbers)))
