@@ -7,3 +7,5 @@ def max_task_2_2(words):
         longest word
     """
     return
+words=["pen", "notebook", "eraser"]
+print(max(words,key=len))
