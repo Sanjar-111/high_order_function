@@ -6,4 +6,6 @@ def map_task_3_3(words):
     Returns:
         list of word lengths
     """
-    return
+    return len(words)
+words=["hi", "hello", "bye"]
+print(list(map(map_task_3_3,words)))
